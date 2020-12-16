@@ -1,7 +1,4 @@
-class Game:
+class Game: # Definindo o Objeto Game
     total_kills = 0
-    players = []
+    players = {}
     kills = []
-
-    def __str__(self):
-        print(self.players)
